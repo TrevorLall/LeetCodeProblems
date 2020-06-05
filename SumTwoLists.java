@@ -22,7 +22,7 @@ class ListNode {
     }
 }
 
-public class Solution {
+public class SumTwoLists {
     public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode finalList = new ListNode(0);
         ListNode p = l1, q = l2, curr = finalList;
