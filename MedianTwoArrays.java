@@ -45,8 +45,8 @@ public class MedianTwoArrays {
     public static void main(String[] args) {
         long startTime = System.nanoTime();
 
-        int[] num1 = { 1, 3, 6, 9 };
-        int[] num2 = { 2, 7 };
+        int[] num1 = { 2, 3, 6, 9 };
+        int[] num2 = { 1, 7 };
 
         double median = findMedianSortedArrays(num1, num2);
         System.out.println("Median: " + median);
